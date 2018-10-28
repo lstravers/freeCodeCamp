@@ -13,6 +13,7 @@ It is important to understand that smelly code works, but is not of good quality
 3. [Magic numbers](https://en.wikipedia.org/wiki/Magic_number_(programming)) - Variables (or `if` statements) scattered in the code that hold numeric values with no apparent meaning. 
 4. Many-parameter methods - Methods that take more that 2 or 3 parameters usually indicate that the method does more than one thing and should be broken down to multiple methods.
 5. Unclear method or variable naming - A programmer should be able to understand what a method does without looking at the method's body. If the name or the parameter naming is vague, it is an indicator that the method should be refactored to reveal its purpose in the code.
+6. Code Comments - If there are too many comments in code, it may indicate complex code that could be simplified. Also, if a programmer adds comments to explain complex code, it will be difficult for other programmers to understand exactly what the code does.
 
 #### More Information:
 * _Refactoring: Improving the Design of Existing Code - Kent Beck, Martin Fowler_
